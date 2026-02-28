@@ -13,7 +13,7 @@ A user reported clicking a suspicious link in an email. This lab simulates the i
 ## Investigation Steps
 1. Reviewed the reported email for phisihing indicators
 2. Analyzed the embedded URL using an online reputation service
-3. checked sytem logs for unusual activity following the click
+3. checked system logs for unusual activity following the click
 4. reviewed DNS and proxy logs for connections to suspicious domains
 
 ## Findings 
