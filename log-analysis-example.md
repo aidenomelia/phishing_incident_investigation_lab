@@ -9,10 +9,13 @@ Jan 12 10:15:32 server sshd[2145]: Failed password for invalid user admin from 2
 ## Screenshot Evidence - Event ID 4625
 The following screenshot shows multiple failed logon attempts recorded in the Windows Security Log (Event ID 4625).
 
-![Failed Login Attempts]
-(failed-login-eventid-4625.png)
+![Failed Login Attempts](failed-login-eventid-4625.png)
 
-These events indicate unsuccessful authentication attempts and were analyzed to determine potential brute-force or credential abuse activity.
+Observations:
+- Repeated attempts against the same account
+- time clustering suggests potential brute-force activity
+
+Analyst Note: Further investigation would include reviewing succesful logons (Event ID 4624) and account lockout events (Event ID 4740) to determine the scope of the suspicious activity.
 
 ## Key Fields Breakdown
 - Timestamp: Jan 12 10:15:32
