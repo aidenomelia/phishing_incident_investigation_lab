@@ -6,6 +6,14 @@ A server is experiencing repeated failed login attempts. first prioity is to det
 ## Sample log Entry
 Jan 12 10:15:32 server sshd[2145]: Failed password for invalid user admin from 203.0.113.45 port 51432 ssh2 
 
+## Screenshot Evidence - Event ID 4625
+The following screenshot shows multiple failed logon attempts recorded in the Windows Security Log (Event ID 4625).
+
+![Failed Login Attempts]
+(failed-login-eventid-4625.png)
+
+These events indicate unsuccessful authentication attempts and were analyzed to determine potential brute-force or credential abuse activity.
+
 ## Key Fields Breakdown
 - Timestamp: Jan 12 10:15:32
 - Service: sshd
@@ -28,5 +36,5 @@ Next steps would be to:
           - Verify no succesful logins occured 
           - Consider disabling password authentication in favor of SSH keys
 
-## MIRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 - T1110 - Brute Force
