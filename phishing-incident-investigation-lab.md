@@ -21,6 +21,14 @@ A user reported clicking a suspicious link in an email. This lab simulates the i
 - No evidence of malware execution was observed
 - No additional outbound connections detected
 
+## Screenshot Evidence - Phishing Incident
+![Phisihing Email Screensot](phising-email-screenshot.png)
+
+Observations:
+- Email found in Gmail spam folder
+- Suspicious URL clearly visable and highlighted
+- obvious phishing characteristics (sender mismatch, typos, urgent request)
+
 ## Response Actions
 - User workstation isolated as a precaution
 - Malicious domain blocked at network level
