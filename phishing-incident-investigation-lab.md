@@ -22,7 +22,7 @@ A user reported clicking a suspicious link in an email. This lab simulates the i
 - No additional outbound connections detected
 
 ## Screenshot Evidence - Phishing Incident
-![Phisihing Email Screensot](phising-email-screenshot.png)
+![Phisihing Email Screensot](../phising-email-screenshot.png)
 
 Observations:
 - Email found in Gmail spam folder
